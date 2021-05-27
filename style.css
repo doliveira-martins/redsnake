@@ -1,0 +1,30 @@
+body{
+    background-color: lightseagreen;
+    margin-left: 30%;
+    margin-top: 5px;
+    height: 95vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.img{
+    border: transparent thin solid;
+    max-width: 15%;
+    max-height: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.texto{
+    font-family:Impact, 'Arial Narrow Bold';
+    font-size: 30px;
+    color: blanchedalmond;
+}
